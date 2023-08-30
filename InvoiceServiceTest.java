@@ -14,6 +14,7 @@ public class InvoiceServiceTest {
 	     Assert.assertEquals(25, fare,1);
      }
 	  
+	   @Test
 	  public void givenLessDistanceTimeReturnMinFare() {
 		    InvoiceGenerator invoiceGenerator =new InvoiceGenerator();
 	        double distance = 0.1;
